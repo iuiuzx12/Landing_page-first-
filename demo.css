@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;1,200&family=Mitr:wght@300&family=Prompt:wght@300&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+.container{
+    max-height: 1161px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    height: 1161px;
+    background:url(designer_1.svg) no-repeat;
+    background-position: right bottom 50px;
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    width: 255px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.logo{
+    text-align: center;
+}
+.logo h1{
+    color: #37447e;
+    font-size:26px;
+}
+.nav-btn{
+    width: 160px;
+    height: 26px;
+    background-color: #111b47;
+    border-radius: 2px;
+
+}
+.nav-btn a{
+    justify-content: center;
+    margin-top: 4px;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+section.header-info{
+    position: absolute;
+    top: 310px;
+}
+.header-title{
+    font-size: 50px;
+}
+.header-content{
+    font-size: 18px;
+}
+.header-btn {
+    margin-top: 77px;
+    display: flex;
+}
+.header-btn div{
+    margin-right:30px;
+}
+.header-btn div a{
+    text-decoration: none;
+}
+.one{
+    width: 190px;
+    height: 36px;
+    background-color: #111b47;
+    border-radius: 2px;
+
+}
+.one a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+.two{
+    width: 190px;
+    height: 36px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.two a{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+article.first{
+    margin: 0 auto;
+    height: 742px;
+    background: url(undraw_mobile_login_ikmv.svg) no-repeat;
+    background-position: right top;
+}
+.powerful{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.powerful-con{
+    position: absolute;
+    top: 170px;
+}
+.sup-article{
+    margin-top: 80px;
+    display: flex;
+}
+.sup-article div{
+    width: 255px;
+    height: 138px;
+    margin-right: 40px;
+}
+.powerful-con .main-article{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.powerful-con .main-article-content{
+    color: #6F7CB2;    
+}
+.sup-article div p{
+    font-size: 12px;
+    color: #5D6970;
+}
+.sup-article div img{
+    margin-bottom: 10px;
+}
+.sup-article div h3{
+    margin-bottom: 8px;
+}
+article.two{
+    height:569px;
+    background:url(undraw_happy_news_hxmt.svg) no-repeat;
+    background-position: left 177px;
+    width: 1440px;
+    border: 0;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 160px;
+    margin-top: 0;
+
+}
+.container-two{
+    position:absolute;
+    float: right;
+    top: 194px;
+    right: 162px;
+}
+.lightone-content{
+    color: #6F7CB2;
+}
+.lightone-head{
+    margin-bottom:5px;
+}
+.lightone-head h2{
+    font-size: 36px;
+}
+article.three{
+    height:569px;
+    background:url(undraw_social_influencer_sgsv.svg) no-repeat;
+    background-position: left 177px;
+    width: 1440px;
+    border: 0;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 160px;
+    margin-top: 0;
+}
+.container-three{
+    position:absolute;
+    float: right;
+    top: 194px;
+    right: 162px;
+}
+p{
+    color: #6F7CB2;
+}
+h2{
+    font-size: 32px;
+}
+.lighttwo-head{
+    margin-bottom: 5px;
+}
+article.four{
+    height:569px;
+    background:url(undraw_mention_6k5d.svg) no-repeat;
+    background-position: left 177px;
+    width: 1440px;
+    border: 0;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.container-four{
+    position:absolute;
+    float: right;
+    top: 194px;
+    right: 162px;
+}
+.lightthree-head{
+    margin-bottom: 6px;
+}
+.lightfour-btn{
+    margin-top: 40px;
+    width: 150px;
+    height: 32px;
+    background-color: #111B47;
+    position: relative;
+}
+.lightfour-btn a{
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    text-decoration: none;
+    color: white;
+} 
