@@ -148,11 +148,11 @@ article.two{
     height:569px;
     background:url(undraw_happy_news_hxmt.svg) no-repeat;
     background-position: left 177px;
-    width: 1440px;
+    width: inherit;
     border: 0;
     position: relative;
     margin: 0 auto;
-    margin-left: 160px;
+    margin-left: 60px;
     margin-top: 0;
 
 }
@@ -175,11 +175,11 @@ article.three{
     height:569px;
     background:url(undraw_social_influencer_sgsv.svg) no-repeat;
     background-position: left 177px;
-    width: 1440px;
+    width: inherit;
     border: 0;
     position: relative;
     margin: 0 auto;
-    margin-left: 160px;
+    margin-left: 60px;
     margin-top: 0;
 }
 .container-three{
@@ -201,12 +201,12 @@ article.four{
     height:569px;
     background:url(undraw_mention_6k5d.svg) no-repeat;
     background-position: left 177px;
-    width: 1440px;
+    width: inherit;
     border: 0;
     position: relative;
     margin: 0 auto;
     margin-top: 30px;
-    margin-left: 160px;
+    margin-left: 60px;
 }
 .container-four{
     position:absolute;
@@ -231,3 +231,62 @@ article.four{
     text-decoration: none;
     color: white;
 } 
+.price{
+    margin-left: 60px;
+    height: 812px;
+    background-color:#E7ECFF;
+    margin-top: -4rem;
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    
+}
+article.four{
+    background-color: #fff;
+    border-bottom-left-radius: 100% 100px;
+    border-bottom-right-radius: 100% 100px;
+    z-index: 100;
+    position: relative;
+}
+.price-head h2{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 6px;
+}
+.price-head p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.price-info h1{
+    font-size: 50px;
+    text-align: center;
+    color: #222F65;
+    margin-bottom: 5px;
+}
+.price-info p{
+    text-align: center;
+}
+.price-btm{
+    margin-top: 80px;
+}
+.price-btm p{
+    text-align: center;
+}
+.price-btm div.btn-por{
+    margin-left: 33.8%;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #111B47;
+    width: 189px;
+    height: 31.81px;
+    position: relative;
+}
+.price-btm .btn-por a{
+    color: white;
+    position: absolute;
+    right: 42px;
+    top: 6px;
+    text-decoration: none;
+}
