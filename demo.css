@@ -234,7 +234,7 @@ article.four{
 .price{
     margin-left: 60px;
     height: 812px;
-    background-color:#E7ECFF;
+    background-color:#E9EBEC;
     margin-top: -4rem;
     padding: 10rem 0;
     display: flex;
@@ -289,4 +289,67 @@ article.four{
     right: 42px;
     top: 6px;
     text-decoration: none;
+}
+article.foot{
+    height: 216px;
+    background-color: #E7ECFF;
+    width: inherit;
+    border: 0;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 0;
+}
+.container-foot-top{
+    padding: 10px;
+    left: 10px;
+    width: 1350px;
+    position: absolute;
+    margin-top:70px;
+    bottom: 50px;
+}
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.foot-bot{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bot{
+    list-style: none;
+    display: flex;
+}
+.nav-bot li a{
+    text-decoration: none;
+    margin-right: 60px;
+}
+.logo-bot a{
+    margin-left:33px;
+}
+.mid-con{
+    margin-right: 20px;
+    font-size: 26px;
+    color: #37447E;
+}
+.right-btn a{
+    top: 6px;
+    left: 18px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+}
+.right-btn{
+    background-color: #111B47;
+    position: relative;
+    width: 109px;
+    height: 26px;
+    border-radius: 2px;
 }
